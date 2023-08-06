@@ -1,4 +1,7 @@
 
+Code that was under WTFPL are not under CC-BY-SA-NC (take note about non comercial)
+to respective prevous autors and mckaygerhard due modifications
+
 All my models (K Pavel) and change code on valid license The MIT License
 
 

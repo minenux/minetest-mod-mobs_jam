@@ -53,6 +53,7 @@ dofile(path .. "owl.lua") -- D00Med
 dofile(path .. "tortoise.lua") -- D00Med
 
 dofile(path .. "fire_spirit.lua") -- tenplus1
+dofile(path .. "oerkki.lua") -- Pavel_S and PilzAdam (WTFPL)
 
 -- Load custom spawning
 if mobs.custom_spawn_animal then

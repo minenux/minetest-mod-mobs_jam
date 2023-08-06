@@ -71,6 +71,10 @@ These were extracted from dmobs mod and spawns at the leaves or trees, will rest
 ### Fox
 These were extracted from dmobs mod, its aggressive and will not leave you from attack
 
+### Oerkki
+
+Found in dark areas like most monsters, Oerkki wander the caverns stealing away torches on the ground and attacking anyone found in that area. 1 in 3 chance of dropping obsidian.
+
 ### Fire Spirit
 
 Fire Spirits will not tolerate players roaming around their domain and will fiercely attack until their dying puff of smoke. Th
