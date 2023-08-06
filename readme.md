@@ -62,4 +62,13 @@ These monochrome cuties spawn in Ethereal's bamboo biome and can be tamed with b
 ---
 *Note: After breeding, animals need to rest for 4 minutes and baby animals take 4 minutes to grow up, also feeding them helps them grow quicker...*
 
+### tortoise
+These were extracted from dmobs mod from D00Med and its friendly but pretty slowww
+
+### Owl
+These were extracted from dmobs mod and spawns at the leaves or trees, will rest at night and at day will hide
+
+### Fox
+These were extracted from dmobs mod, its aggressive and will not leave you from attack
+
 #### Lucky Blocks: 20

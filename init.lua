@@ -48,6 +48,10 @@ dofile(path .. "kitten.lua") -- Jordach/BFD
 dofile(path .. "penguin.lua") -- D00Med
 dofile(path .. "panda.lua") -- AspireMint
 
+dofile(path .. "fox.lua") -- D00Med
+dofile(path .. "owl.lua") -- D00Med
+dofile(path .. "tortoise.lua") -- D00Med
+
 
 -- Load custom spawning
 if mobs.custom_spawn_animal then
