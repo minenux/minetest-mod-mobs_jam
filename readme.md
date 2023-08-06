@@ -71,4 +71,10 @@ These were extracted from dmobs mod and spawns at the leaves or trees, will rest
 ### Fox
 These were extracted from dmobs mod, its aggressive and will not leave you from attack
 
+### Fire Spirit
+
+Fire Spirits will not tolerate players roaming around their domain and will fiercely attack until their dying puff of smoke. Th
+ey will drop their spirit and some fire dust when using ethereal.
+
+
 #### Lucky Blocks: 20

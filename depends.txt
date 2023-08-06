@@ -2,3 +2,5 @@ mobs
 default?
 lucky_block?
 intllib?
+tnt?
+fire?
