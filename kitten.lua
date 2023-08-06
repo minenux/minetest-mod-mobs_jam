@@ -11,7 +11,7 @@ local kitten_types = {
 
 -- Kitten by Jordach / BFD
 
-mobs:register_mob("mobs_animal:kitten", {
+mobs:register_mob(":mobs_animal:kitten", {
 	stepheight = 0.6,
 	type = "animal",
 	specific_attack = {"mobs_animal:rat"},
@@ -143,7 +143,7 @@ end
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:kitten",
+		name = ":mobs_animal:kitten",
 		nodes = {spawn_on},
 		neighbors = {"group:grass"},
 		min_light = 14,
@@ -156,7 +156,7 @@ if not mobs.custom_spawn_animal then
 end
 
 
-mobs:register_egg("mobs_animal:kitten", S("Kitten"), "mobs_kitten_inv.png", 0)
+mobs:register_egg(":mobs_animal:kitten", S("Kitten"), "mobs_kitten_inv.png", 0)
 
 
 mobs:alias_mob("mobs:kitten", "mobs_animal:kitten") -- compatibility

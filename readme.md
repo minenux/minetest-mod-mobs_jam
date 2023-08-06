@@ -1,4 +1,4 @@
-# minetest mod mobs_animal
+# minetest mod mobs_jam
 
 IT add animals for farmin like cows, dogs chicken or cats.
 

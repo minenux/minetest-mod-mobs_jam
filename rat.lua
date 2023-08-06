@@ -4,7 +4,7 @@ local S = mobs.intllib_animal
 
 -- Rat by KPavel and PilzAdam (B3D model by sirrobzeroone)
 
-mobs:register_mob("mobs_animal:rat", {
+mobs:register_mob(":mobs_animal:rat", {
 stepheight = 0.6,
 	type = "animal",
 	passive = true,
@@ -73,7 +73,7 @@ end
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:rat",
+		name = ":mobs_animal:rat",
 		nodes = {"default:stone"},
 		min_light = 3,
 		max_light = 9,
@@ -85,7 +85,7 @@ if not mobs.custom_spawn_animal then
 end
 
 
-mobs:register_egg("mobs_animal:rat", S("Rat"), "mobs_rat_inv.png")
+mobs:register_egg(":mobs_animal:rat", S("Rat"), "mobs_rat_inv.png")
 
 
 mobs:alias_mob("mobs:rat", "mobs_animal:rat") -- compatibility

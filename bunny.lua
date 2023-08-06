@@ -4,7 +4,7 @@ local S = mobs.intllib_animal
 
 -- Bunny by ExeterDad
 
-mobs:register_mob("mobs_animal:bunny", {
+mobs:register_mob(":mobs_animal:bunny", {
 	type = "animal",
 	passive = true,
 	reach = 1,
@@ -136,7 +136,7 @@ end
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:bunny",
+		name = ":mobs_animal:bunny",
 		nodes = {spawn_on},
 		neighbors = {"group:grass"},
 		min_light = 14,
@@ -149,7 +149,7 @@ if not mobs.custom_spawn_animal then
 end
 
 
-mobs:register_egg("mobs_animal:bunny", S("Bunny"), "mobs_bunny_inv.png", 0)
+mobs:register_egg(":mobs_animal:bunny", S("Bunny"), "mobs_bunny_inv.png", 0)
 
 
 mobs:alias_mob("mobs:bunny", "mobs_animal:bunny") -- compatibility

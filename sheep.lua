@@ -57,7 +57,7 @@ for _, col in ipairs(all_colours) do
 		return textures
 	end
 
-	mobs:register_mob("mobs_animal:sheep_" .. col[1], {
+	mobs:register_mob(":mobs_animal:sheep_" .. col[1], {
 		stay_near = {"farming:straw", 10},
 		stepheight = 0.6,
 		type = "animal",
@@ -359,7 +359,7 @@ for _, col in ipairs(all_colours) do
 	})
 
 	-- spawn egg
-	mobs:register_egg("mobs_animal:sheep_"..col[1], S("@1 Sheep", col[2]),
+	mobs:register_egg(":mobs_animal:sheep_"..col[1], S("@1 Sheep", col[2]),
 			"wool_" .. col[1] .. ".png^mobs_sheep_inv.png")
 
 	-- compatibility
@@ -372,10 +372,10 @@ if not mobs.custom_spawn_animal then
 	local max_ht = 400
 	local spawn_on = {"default:dirt_with_grass", "ethereal:green_dirt"}
 	local mod_ethereal = minetest.get_modpath("ethereal")
-	local spawn_chance = mod_ethereal and 12000 or 8000
+	local spawn_chance = 8000
 
 	mobs:spawn({
-		name = "mobs_animal:sheep_white",
+		name = ":mobs_animal:sheep_white",
 		nodes = spawn_on,
 		neighbors = {"group:grass"},
 		min_light = 14,

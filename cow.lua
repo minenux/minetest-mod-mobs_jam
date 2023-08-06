@@ -4,7 +4,7 @@ local S = mobs.intllib_animal
 
 -- Cow by sirrobzeroone
 
-mobs:register_mob("mobs_animal:cow", {
+mobs:register_mob(":mobs_animal:cow", {
 	type = "animal",
 	passive = false,
 	attack_type = "dogfight",
@@ -153,7 +153,7 @@ mobs:register_mob("mobs_animal:cow", {
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:cow",
+		name = ":mobs_animal:cow",
 		nodes = {"default:dirt_with_grass", "ethereal:green_dirt"},
 		neighbors = {"group:grass"},
 		min_light = 14,
@@ -166,7 +166,7 @@ if not mobs.custom_spawn_animal then
 end
 
 
-mobs:register_egg("mobs_animal:cow", S("Cow"), "mobs_cow_inv.png")
+mobs:register_egg(":mobs_animal:cow", S("Cow"), "mobs_cow_inv.png")
 
 
 mobs:alias_mob("mobs:cow", "mobs_animal:cow") -- compatibility

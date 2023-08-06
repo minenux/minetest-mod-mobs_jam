@@ -4,7 +4,7 @@ local S = mobs.intllib_animal
 
 -- Warthog originally by KrupnoPavel, B3D model by sirrobzeroone
 
-mobs:register_mob("mobs_animal:pumba", {
+mobs:register_mob(":mobs_animal:pumba", {
 	stepheight = 0.6,
 	type = "animal",
 	passive = false,
@@ -83,7 +83,7 @@ end
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:pumba",
+		name = ":mobs_animal:pumba",
 		nodes = spawn_on,
 		neighbors = spawn_by,
 		min_light = 14,
@@ -97,7 +97,7 @@ end
 
 
 -- spawn egg
-mobs:register_egg("mobs_animal:pumba", S("Warthog"), "mobs_pumba_inv.png")
+mobs:register_egg(":mobs_animal:pumba", S("Warthog"), "mobs_pumba_inv.png")
 
 
 mobs:alias_mob("mobs:pumba", "mobs_animal:pumba") -- compatibility

@@ -4,7 +4,7 @@ local path = minetest.get_modpath(minetest.get_current_modname()) .. "/"
 local S
 
 if minetest.get_translator ~= nil then
-	S = minetest.get_translator("mobs_animal") -- 5.x translation function
+	S = minetest.get_translator("mobs_jam") -- 5.x translation function
 else
 	if minetest.get_modpath("intllib") then
 		dofile(minetest.get_modpath("intllib").."/init.lua")
@@ -61,4 +61,4 @@ if minetest.get_modpath("lucky_block") then
 end
 
 
-print ("[MOD] Mobs Redo Animals loaded")
+print ("[MOD] Mobs JAM (reduced animals mobs) loaded")

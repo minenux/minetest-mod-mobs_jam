@@ -4,7 +4,7 @@ local S = mobs.intllib_animal
 
 -- Chicken by JK Murray and Sirrobzeroone
 
-mobs:register_mob("mobs_animal:chicken", {
+mobs:register_mob(":mobs_animal:chicken", {
 	stepheight = 0.6,
 	type = "animal",
 	passive = true,
@@ -104,7 +104,7 @@ end
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:chicken",
+		name = ":mobs_animal:chicken",
 		nodes = spawn_on,
 		neighbors = {"group:grass"},
 		min_light = 14,
@@ -117,7 +117,7 @@ if not mobs.custom_spawn_animal then
 end
 
 
-mobs:register_egg("mobs_animal:chicken", S("Chicken"), "mobs_chicken_inv.png", 0)
+mobs:register_egg(":mobs_animal:chicken", S("Chicken"), "mobs_chicken_inv.png", 0)
 
 
 mobs:alias_mob("mobs:chicken", "mobs_animal:chicken") -- compatibility
@@ -125,7 +125,7 @@ mobs:alias_mob("mobs:chicken", "mobs_animal:chicken") -- compatibility
 
 -- egg entity
 
-mobs:register_arrow("mobs_animal:egg_entity", {
+mobs:register_arrow(":mobs_animal:egg_entity", {
 	visual = "sprite",
 	visual_size = {x=.5, y=.5},
 	textures = {"mobs_chicken_egg.png"},

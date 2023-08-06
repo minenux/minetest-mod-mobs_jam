@@ -1,4 +1,4 @@
-# textdomain: Lunovox Heavenfinder (https://libreplanet.org/wiki/User:Lunovox) <lunovox@disroot.org>
+# textdomain:mobs_jam
 Bee=Abelha
 Honey=Mel
 Beehive=Colméia
@@ -18,7 +18,6 @@ Cow=Vaca
 Bucket of Milk=Balde de leite
 Cheese=Queijo
 Cheese Block=Bloco de Queijo
-[MOD] Mobs Redo 'Animals' loaded=[MOBS_ANIMAL] Mod carregado completamente
 Kitten=Gato
 Penguin=Pinguim
 Rat=Rato

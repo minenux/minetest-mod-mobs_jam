@@ -4,7 +4,7 @@ local S = mobs.intllib_animal
 
 -- Bee by KrupnoPavel (.b3d model by sirrobzeroone)
 
-mobs:register_mob("mobs_animal:bee", {
+mobs:register_mob(":mobs_animal:bee", {
 	type = "animal",
 	passive = true,
 	hp_min = 1,
@@ -52,7 +52,7 @@ mobs:register_mob("mobs_animal:bee", {
 if not mobs.custom_spawn_animal then
 
 	mobs:spawn({
-		name = "mobs_animal:bee",
+		name = ":mobs_animal:bee",
 		nodes = {"group:flower"},
 		min_light = 14,
 		interval = 60,
@@ -65,7 +65,7 @@ end
 
 
 -- spawn egg
-mobs:register_egg("mobs_animal:bee", S("Bee"), "mobs_bee_inv.png")
+mobs:register_egg(":mobs_animal:bee", S("Bee"), "mobs_bee_inv.png")
 
 
 -- compatibility (only required if moving from old mobs to mobs_redo)
