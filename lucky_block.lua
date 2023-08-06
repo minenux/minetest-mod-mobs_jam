@@ -20,9 +20,3 @@ lucky_block:add_blocks({
 	{"dro", {"mobs:glass_milk"}, 5}
 })
 
-if minetest.registered_nodes["default:nyancat"] then
-
-	lucky_block:add_blocks({
-		{"tro", "default:nyancat", "mobs_kitten", true}
-	})
-end
