@@ -36,7 +36,7 @@ if input then
 end
 
 
--- Animals
+if not minetest.get_modpath("mobs_animal") then
 dofile(path .. "chicken.lua") -- JKmurray
 dofile(path .. "cow.lua") -- KrupnoPavel
 dofile(path .. "rat.lua") -- PilzAdam
@@ -47,14 +47,19 @@ dofile(path .. "bunny.lua") -- ExeterDad
 dofile(path .. "kitten.lua") -- Jordach/BFD
 dofile(path .. "penguin.lua") -- D00Med
 dofile(path .. "panda.lua") -- AspireMint
+end
 
+if not minetest.get_modpath("mobs_doomed") or not minetest.get_modpath("dmobs") then
 dofile(path .. "fox.lua") -- D00Med
 dofile(path .. "owl.lua") -- D00Med
 dofile(path .. "tortoise.lua") -- D00Med
+end
 
+if not minetest.get_modpath("mobs_monster") then
 dofile(path .. "fire_spirit.lua") -- tenplus1
 dofile(path .. "oerkki.lua") -- Pavel_S and PilzAdam (WTFPL)
 dofile(path .. "lava_flan.lua") -- Lava Flan by Zeg9 (additional textures by JurajVajda)
+end
 
 -- Load custom spawning
 if mobs.custom_spawn_animal then
