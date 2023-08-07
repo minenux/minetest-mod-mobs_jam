@@ -18,5 +18,11 @@ lucky_block:add_blocks({
 	{"dro", {"mobs:mutton_raw", "mobs:mutton_cooked"}, 10},
 	{"dro", {"mobs:meat_raw", "mobs:meat"}, 10},
 	{"dro", {"mobs:glass_milk"}, 5}
+	{"spw", "mobs:oerkki", 3},
+	{"exp"},
+	{"spw", "mobs:mese_monster", 2},
+	{"spw", "mobs:lava_flan", 3},
+	{"nod", "default:chest", 0, {
+		{name = "mobs:lava_orb", max = 1}}},
 })
 
