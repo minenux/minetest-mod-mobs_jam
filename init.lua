@@ -54,6 +54,7 @@ dofile(path .. "tortoise.lua") -- D00Med
 
 dofile(path .. "fire_spirit.lua") -- tenplus1
 dofile(path .. "oerkki.lua") -- Pavel_S and PilzAdam (WTFPL)
+dofile(path .. "lava_flan.lua") -- Lava Flan by Zeg9 (additional textures by JurajVajda)
 
 -- Load custom spawning
 if mobs.custom_spawn_animal then
