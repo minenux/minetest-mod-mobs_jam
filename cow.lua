@@ -158,8 +158,8 @@ if not mobs.custom_spawn_animal then
 		neighbors = {"group:grass"},
 		min_light = 14,
 		interval = 60,
-		chance = 8000,
-		min_height = 5,
+		chance = 4000,
+		min_height = 3,
 		max_height = 200,
 		day_toggle = true
 	})

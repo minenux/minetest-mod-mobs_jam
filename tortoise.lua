@@ -71,4 +71,4 @@ mobs:register_mob(":mobs_doomed:tortoise", {
 mobs:register_egg(":mobs_doomed:tortoise", "Tortoise", "default_grass.png", 1)
 
 	mobs:spawn({name = ":mobs_doomed:tortoise", nodes = {"default:water_source", "group:sand"}, neighbor = {},
-		min_light = 5, max_light = 10, interval = 300, chance = 8000, active_object_count = 2, min_height = -100, max_height = 500})
+		min_light = 5, max_light = 10, interval = 300, chance = 4000, active_object_count = 2, min_height = -100, max_height = 500})

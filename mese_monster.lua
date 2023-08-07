@@ -328,7 +328,7 @@ if not mobs.custom_spawn_monster then
 		name = ":mobs_monster:mese_monster",
 		nodes = {"default:stone"},
 		max_light = 7,
-		chance = 5000,
+		chance = 4500,
 		active_object_count = 1,
 		max_height = -90
 	})

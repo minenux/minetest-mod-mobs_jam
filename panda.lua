@@ -33,7 +33,7 @@ stepheight = 0.6,
 	run_velocity = 1.5,
 	jump = false,
 	jump_height = 6,
-	follow = {"ethereal:bamboo", "bamboo:trunk"},
+	follow = {"ethereal:bamboo", "bamboo:trunk", "default:papyrus"},
 	view_range = 8,
 	drops = {
 		{name = "mobs:meat_raw", chance = 1, min = 1, max = 2}
@@ -69,16 +69,19 @@ stepheight = 0.6,
 	end
 })
 
+local spawn_on = {"default:dirt_with_grass"}
 
-if minetest.get_modpath("ethereal") and not mobs.custom_spawn_animal then
+if minetest.get_modpath("ethereal") then spawn_on = {"ethereal:bamboo_dirt", "default:dirt_with_grass"} end
+
+if not mobs.custom_spawn_animal then
 	mobs:spawn({
 		name = ":mobs_animal:panda",
-		nodes = {"ethereal:bamboo_dirt"},
+		nodes = spawn_on,
 		neighbors = {"group:grass"},
 		min_light = 14,
 		interval = 60,
-		chance = 8000,
-		min_height = 10,
+		chance = 4000,
+		min_height = 5,
 		max_height = 80,
 		day_toggle = true
 	})

@@ -81,10 +81,10 @@ mobs:register_mob(":mobs_monster:fire_spirit", {
 })
 
 
-local spawnon = {"default:obsidian"}
+local spawnon = {"default:obsidian", "default:lava_source"}
 
 if minetest.get_modpath("caverealms") then
-	spawnon =  {"default:obsidian", "caverealms:hot_cobble"}
+	spawnon =  {"default:obsidian", "caverealms:hot_cobble", "default:lava_source"}
 end
 
 if not mobs.custom_spawn_monster then
@@ -93,11 +93,11 @@ if not mobs.custom_spawn_monster then
 		name = ":mobs_monster:fire_spirit",
 		nodes = spawnon,
 		neighbors = {"group:fire"},
-		min_light = 12,
+		min_light = 5,
 		max_light = 15,
-		chance = 1500,
+		chance = 1200,
 		active_object_count = 1,
-		max_height = -150
+		max_height = -100
 	})
 end
 

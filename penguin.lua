@@ -68,8 +68,8 @@ if not mobs.custom_spawn_animal then
 		nodes = {"default:snowblock"},
 		min_light = 14,
 		interval = 60,
-		chance = 20000,
-		min_height = 0,
+		chance = 10000,
+		min_height = 1000,
 		max_height = 200,
 		day_toggle = true
 	})

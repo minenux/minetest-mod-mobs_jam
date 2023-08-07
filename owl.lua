@@ -98,4 +98,4 @@ mobs:register_mob(":mobs_doomed:owl", {
 mobs:register_egg(":mobs_doomed:owl", "Owl", "default_tree.png", 1)
 
 	mobs:spawn({name = ":mobs_doomed:owl", nodes = {"group:tree"}, neighbor = {},
-		min_light = 0, max_light = 7, interval = 300, chance = 16000, active_object_count = 2, min_height = 0, max_height = 2000})
+		min_light = 0, max_light = 7, interval = 300, chance = 9000, active_object_count = 2, min_height = 0, max_height = 2000})

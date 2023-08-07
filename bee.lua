@@ -56,9 +56,9 @@ if not mobs.custom_spawn_animal then
 		nodes = {"group:flower"},
 		min_light = 14,
 		interval = 60,
-		chance = 7000,
-		min_height = 3,
-		max_height = 200,
+		chance = 6000,
+		min_height = 11,
+		max_height = 300,
 		day_toggle = true
 	})
 end

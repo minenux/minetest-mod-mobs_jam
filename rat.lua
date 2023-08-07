@@ -5,7 +5,7 @@ local S = mobs.intllib_animal
 -- Rat by KPavel and PilzAdam (B3D model by sirrobzeroone)
 
 mobs:register_mob(":mobs_animal:rat", {
-stepheight = 0.6,
+	stepheight = 0.6,
 	type = "animal",
 	passive = true,
 	hp_min = 1,
@@ -75,11 +75,11 @@ if not mobs.custom_spawn_animal then
 	mobs:spawn({
 		name = ":mobs_animal:rat",
 		nodes = {"default:stone"},
-		min_light = 3,
-		max_light = 9,
+		min_light = 2,
+		max_light = 10,
 		interval = 60,
-		chance = 8000,
-		max_height = 0,
+		chance = 1000,
+		max_height = 50,
 	--	on_spawn = rat_spawn,
 	})
 end

@@ -370,9 +370,11 @@ end
 if not mobs.custom_spawn_animal then
 
 	local max_ht = 400
-	local spawn_on = {"default:dirt_with_grass", "ethereal:green_dirt"}
+	local spawn_on = {"default:dirt_with_grass"}
 	local mod_ethereal = minetest.get_modpath("ethereal")
-	local spawn_chance = 8000
+	local spawn_chance = 4000
+
+	if mod_ethereal then spawn_on = {"default:dirt_with_grass", "ethereal:green_dirt"} end
 
 	mobs:spawn({
 		name = ":mobs_animal:sheep_white",
